@@ -1,0 +1,37 @@
+
+Code submission by Bhavya Arora (arora.135@osu.edu)
+
+The following is the structure of the directory.
+
+Lab2 has three directories in it (Client, Server and Troll), one ReadMe and one
+
+Makefile can be run with the following command:
+
+make -f Makefile
+
+Server directory has the server code (server.c) and the server executable (server
+To run the server executable the following command is run:
+
+Server/server <port number>
+
+**For our code port number that server runs on is 4000**
+
+We then run the Server/tcpd_Server/tcpds <port number>
+
+**The port number to be entered here is 6000**
+
+Following this, we run the troll on port number 2500 with the commad
+
+Troll/troll 2500
+
+We then run the TCPD-Client on port number 2015 as below:
+
+Client/tcpd_client/tcpdc <port number>
+
+Client has the client code (client.c) and also the client executable (client.o)
+In order to run the executable, the following command needs to be run
+
+Client/client <IP Address of Server> <Port Number of TCPD Server> <File to be transferred>
+
+Client directory also has a few sample images, and a text file which can be tran$
+The Server executable must be run before the client executable is run.

@@ -1,0 +1,23 @@
+Code submission for by Bhavya Arora (arora.135@osu.edu)
+
+The following is the structure of the directory.
+
+Lab1 has two directories in it (Client and Server), and one Makefile
+
+Makefile can be run with the following command:
+
+make -f Makefile
+
+Server directory has the server code (server.c) and the server executable (server.o)
+To run the server executable the following command is run:
+
+server <port number>
+
+
+Client has the client code (client.c) and also the client executable (client.o)
+In order to run the executable, the following command needs to be run
+
+client <IP Address of Server> <Port Number of Server> <File to be transferred>
+
+Client directory also has a few sample images, and a text file which can be transferred to the server.
+The Server executable must be run before the client executable is run.
